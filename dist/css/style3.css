@@ -1,0 +1,111 @@
+html, body  {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#area-anuncio{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    border: 1px solid red;
+    width: 65%;
+    height: 75%;
+    margin: auto;
+}
+
+.titulo{
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.divimg{
+    border: 1px solid red;
+    width: 45%;
+    height: 45%;
+    float: left;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#desc{
+    border: 1px solid red;
+    width: 60%;
+    float: left;
+    clear: both;
+}
+
+.txt-desc{
+    border: 1px solid red;
+    width: 100%;
+    float: left;
+}
+
+#infos{
+    border: 1px solid red;
+    width: 25%;
+    float: right;
+    margin-top: -325px;
+}
+
+.datapost{
+    border: 1px solid red;
+    float: right;
+    display: block;
+}
+
+.preco{
+    border: 1px solid red;
+    float: right;
+    clear: both;
+}
+
+.autor{
+    border: 1px solid red;
+    float: right;
+    display: block;
+    clear: both;
+}
+
+#contato{
+    border: 1px solid red;
+    width: 100%;
+    float: right;
+    clear: both;
+}
+
+span{
+    width: 100%;
+    float: right;
+}
+
+.fone{
+    border: 1px solid red;
+    float: right;
+    clear: both;
+}
+
+.email{
+    border: 1px solid red;
+    float: right;
+    clear: both;
+}
+
+#mapa{
+    border: 1px solid red;
+    width: 100%;
+    float: right;
+}
+
+.app-mapa{
+    float: right;
+}
+
+
+

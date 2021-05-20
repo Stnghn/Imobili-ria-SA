@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    Font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #053c62;
+}
+
+html, body{ /*Usado para colocar o rodapé*/
+    height: 100%;
+}
+
+#tudo{ /*Usado para colocar o rodapé*/
+    min-height: 100%;
+    position: relative;
+}
+html, #tudo{
+    height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+/* Fim Marcações Para Footer */
+
+nav{
+    background-color: #0D4A75;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20% 20px 20%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#lista-horizontal{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lista-horizontal li{  
+    padding: 0 13px 0 13px;
+} 
+
+a.menu-bar {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+a.menu-bar::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+a.menu-bar:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+#linha-horizontal{
+    width: 100%;
+    height: 20px;
+    background-color: #C3D0E2;
+}
+/* Fim Cabeçalho */
+
+#frase-centro{
+    width: 29%;
+    height: 450px;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    background-color: rgba(37, 150, 190, 0.2);
+}
+
+h1{
+    color: #DAE4F1;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    font-weight: bold;
+}
+
+#titulo{
+    font-size: 45px;
+    margin-top: 80px;
+    transition: 1s;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+#titulo:hover{
+    font-size: 46px;
+}
+
+.subtitulo{
+    transition: 1s;
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+
+.subtitulo:hover{
+    font-size: 46px;
+}
+
+#container-img{
+    width: 70%;
+    height: 650px;
+    position: relative;
+}
+
+#casa-site{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+/* Fim Centro */
+
+footer{
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#img-footer{
+    width: 100%;
+    height: 100%;
+}
+
+#lista-vertical{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    height: 50%;
+}
+
+.distancia{
+    padding-bottom: 20px;
+}
+
+a.menu-bar2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+a.menu-bar2::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+a.menu-bar2:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+/* Fim Footer */
+
+.fa-phone-alt{
+    color: white;
+}
+
+.fa-at{
+    color: white;
+}
+
+.fa-comments{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

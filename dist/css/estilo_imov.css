@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    Font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    background-color: #0D4A75;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20% 20px 20%;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#lista-horizontal{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lista-horizontal li{  
+    padding: 0 13px 0 13px;
+} 
+
+a.menu-bar {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+a.menu-bar::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+a.menu-bar:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+#linha-horizontal{
+    width: 100%;
+    height: 20px;
+    background-color: #C3D0E2;
+}
+
+/*Fim Header*/
+
+#redondo{
+    background: #F0847D;
+    border-radius: 25px;
+    padding: 5px 20px 3px 20px;
+    width: 542px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.menu-bar2 {
+    color: white;
+    width: 512px;
+
+}
+
+.menu-bar2::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F0847D;
+    transition: width .3s;
+}
+
+.menu-bar2:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+section{
+    width: 750px;
+    margin: auto;
+}
+
+div#area-postagem{
+    border: none;
+    background-color: #C3D0E2;
+    color: black;
+    padding: 10px 20px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div#imagem{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+img{
+    border: none;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+div#preco{
+    float: left;
+    margin-top: -160px;
+    margin-left: 200px;
+}
+
+div#titulo{
+    display: block;
+    float: right;
+    margin-top: -160px;
+    margin-right: 10px;
+}
+
+div#autor{
+    float: right;
+    margin-top: -105px;
+    margin-right: 10px;
+}
+
+div#data{
+    float: right;
+    margin-top: -70px;
+    margin-right: 10px;
+}
+
+/* Fim organização div*/
+
+
